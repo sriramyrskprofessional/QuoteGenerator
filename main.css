@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+    font-weight: bold;
+    
+    color: white;
+}
+button:focus{
+    outline: none;
+}
+.wrapper{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+.info-layout{
+    width: 85%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#general-quote{
+    background-color: rgb(250, 152, 201);
+    margin-bottom: 3rem;
+   
+}
+.general-info{
+    color: white;
+    text-align: center;
+    width: 100vw;
+    background-color: green;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom:1rem;
+}
+.text-area{
+    width: 95%;
+    height: 30%;
+    background-color: white; 
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    align-items: center;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+#gquote-el{
+    border: #aa78eb solid 3px;
+    
+}
+.quote-btn{
+    background-color: #aa78eb ;
+}
+.quote-btn:hover,
+.quote-btn:active{
+    background-color: white;
+    color: #aa78eb;
+}
+/*Book*/
+#book-selecttion{
+    background-color: #aa78eb;
+
+}
+#book-el{
+    border: #fa98c9 solid 3px;
+    font-size: 1.5rem;
+}
+.book-btn{
+    background-color: #fa98c9 ;
+}
+.book-btn:hover,
+.book-btn:active{
+    background-color: white;
+    color: #fa98c9;
+}
+@media (max-width:50rem
+) {
+    .info-layout{
+        width: 99%;
+        height: 80vh;
+    }
+    .text-area{
+        width: 85%;
+        height: 70%;
+        margin-bottom: 1rem;
+        /* font-size: 1rem; */
+    }
+    .general-info{
+        width: 90%;
+    }
+}
